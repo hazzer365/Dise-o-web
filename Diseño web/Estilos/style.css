@@ -1,0 +1,214 @@
+.navegacion {
+    background-color: rgba(48, 226, 202, 0.747);
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+    bottom: 2px;
+    right: 0px;
+    
+
+    
+}
+.navegacion1 {
+  background-color: rgba(0, 47, 255, 0.815);
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+  position:relative;
+  bottom: 2px;
+  right: 0px;
+}
+  .navegacion1 h1{
+  background: linear-gradient(to top, #001c9bb7, #000000); /* Degradado de verde a blanco */
+  display: inline; /* Asegura que el texto se ajuste al tamaño del contenido */
+  padding: 2px 8px; /* Relleno del texto */
+  border-radius: 10px; /* Borde redondeado */
+  color: #f1f1f1ec;
+
+  
+}
+.navegacion h1 {
+    background: linear-gradient(to top, #00fdfd81, #000000); /* Degradado de verde a blanco */
+    display: inline; /* Asegura que el texto se ajuste al tamaño del contenido */
+    padding: 2px 8px; /* Relleno del texto */
+    border-radius: 10px; /* Borde redondeado */
+    color: #f1f1f1ec;
+    
+}
+.navegacion2 {
+  background-color: rgba(255, 115, 0, 0.815);
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+  position:relative;
+  bottom: 2px;
+  right: 0px;
+}
+  .navegacion2 h1{
+  background: linear-gradient(to top, #db6e07c0, #000000); /* Degradado de verde a blanco */
+  display: inline; /* Asegura que el texto se ajuste al tamaño del contenido */
+  padding: 2px 8px; /* Relleno del texto */
+  border-radius: 10px; /* Borde redondeado */
+  color: #f1f1f1ec;
+}
+
+.navegacion3 {
+  background-color: rgba(255, 0, 98, 0.767);
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+  position:relative;
+  bottom: 2px;
+  right: 0px;
+}
+  .navegacion3 h1{
+  background: linear-gradient(to top, #db0758c0, #000000); /* Degradado de verde a blanco */
+  display: inline; /* Asegura que el texto se ajuste al tamaño del contenido */
+  padding: 2px 8px; /* Relleno del texto */
+  border-radius: 10px; /* Borde redondeado */
+  color: #f1f1f1ec;
+}
+.tipos a {
+    margin-right: 240px; /* Agrega un margen derecho de 10px entre cada enlace */
+    font-size: 40px;
+}
+.tipos a[href="pagina2.html"] {
+    /* Estilos para el enlace con href="1" */
+    color: rgba(0, 47, 255, 0.815); /* Cambia el color del texto a azul */
+    font-weight: bold; /* Hace el texto en negrita */
+  }
+.tipos a[href="pagina3.html"] {
+    /* Estilos para el enlace con href="1" */
+    color: rgba(255, 115, 0, 0.815); /* Cambia el color del texto a azul */
+    font-weight: bold; /* Hace el texto en negrita */
+  }
+.tipos a[href="pagina4.html"] {
+  /* Estilos para el enlace con href="1" */
+    color: rgba(255, 0, 98, 0.767); /* Cambia el color del texto a azul */
+    font-weight: bold; /* Hace el texto en negrita */
+  }
+  
+.tipos a:first-child {
+    margin-left: 200px; /* Agrega un margen izquierdo de 10px al primer enlace */
+
+}
+
+
+#contenedor {
+    background-color: rgb(0, 0, 0);
+   
+}
+
+*{
+    color: rgb(255, 255, 255);
+    }
+
+.imagenes {
+    text-align:center;
+}
+ nav.inicio a {
+      color: #00a396; /* Cambia el color del texto del enlace a rojo */
+    }
+.inicio {
+    text-align: center;
+   
+    
+}
+.Dieta{
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+ 
+}
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+  }
+  
+  .container img {
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 40px; /* Mueve la imagen hacia la derecha agregando un espacio a su izquierda */
+  }
+.inicio a{
+    
+    padding: 6px; /* Relleno interno del campo de búsqueda */
+    border: 2px solid hwb(167 0% 3%); /* Borde del campo de búsqueda */
+    border-radius: 5px; /* Borde redondeado */
+    background-color: #000000; /* Color de fondo del campo de búsqueda */
+    color: #ffffff; /* Color del texto */
+    font-size: 20px;
+}
+.inicio img{
+   
+        width: 250px; /* Ancho deseado del GIF */
+        height: auto; /* Altura automática para mantener la proporción */
+      
+}
+  
+ 
+.container input[type="text"] {
+    width: 700px; /* Ancho del campo de búsqueda */
+    padding: 4px; /* Relleno interno del campo de búsqueda */
+    border: 2px solid hwb(167 0% 3%); /* Borde del campo de búsqueda */
+    border-radius: 5px; /* Borde redondeado */
+    background-color: #000000; /* Color de fondo del campo de búsqueda */
+    color: #ffffff; /* Color del texto */
+    margin-right: 150px; /* Espacio entre el campo de búsqueda y el texto */
+    font-size: 25px;
+  }
+  
+  .container input[type="text"]:focus {
+    outline: none; /* Elimina el contorno al enfocar el campo */
+    border-color: #ff9100; /* Cambia el color del borde cuando el campo está enfocado */
+  }
+  
+
+
+body {
+    font-family: 'Roboto', sans-serif; /* Utiliza Roboto como la fuente principal y si no está disponible, utiliza una fuente genérica sans-serif como respaldo */
+    background-color: #000000;
+    
+  }
+  nav.bueno {
+    width: 98%;
+    margin-right: 5%;
+    border: 3px solid rgb(255, 115, 0, 0.815); /* Agrega un borde sólido de 1px de ancho en color negro */
+    padding: 10px; /* Agrega un relleno interno de 10px para separar el contenido del borde */
+    position:relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+nav.bueno2 {
+    width: 98%;
+    margin-right: 5%;
+    border: 3px solid rgba(0, 47, 255, 0.815); /* Agrega un borde sólido de 1px de ancho en color negro */
+    padding: 10px; /* Agrega un relleno interno de 10px para separar el contenido del borde */
+    position:relative;
+    bottom: 20px;
+    right: 0px;
+}
+nav.bueno3 {
+  width: 98%;
+  margin-right: 5%;
+  border: 3px solid rgba(255, 0, 98, 0.767); /* Agrega un borde sólido de 1px de ancho en color negro */
+  padding: 10px; /* Agrega un relleno interno de 10px para separar el contenido del borde */
+  position:relative;
+  bottom: -20px;
+  right: 0px;
+}
+.vs {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.contenido {
+  position: relative; /* Asegura que el contenido no se vea afectado por el video */
+  z-index: 1; /* Coloca el contenido sobre el video */
+  /* Otros estilos para tu contenido */
+}
